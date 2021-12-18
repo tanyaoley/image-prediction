@@ -3,12 +3,12 @@ simple api for image detection and classification using yolo and imagenet
 
 build docker image with:
 ```
-sudo  docker build -t image-prediction .
+docker build -t image-prediction .
 ```
 
 run docker image using:
 ```
-sudo docker run --network=host image-prediction
+docker run --network=host image-prediction
 ```
 
 API usage:
